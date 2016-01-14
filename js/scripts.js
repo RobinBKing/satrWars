@@ -5,6 +5,10 @@ $(document).ready(function() {
     var gender = $("select#genderPreference").val();
     var force = $("select#force").val();
 
+    $(".theForce").hide();
+    $(".bruteForce").hide();
+    $(".result").hide();
+
     if (side === "dark") {
       $("#vader").show();
     }

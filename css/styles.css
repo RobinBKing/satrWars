@@ -4,11 +4,6 @@ body {
   font-family: starjhol;
 }
 
-@font-face {
-  font-family: starjhol;
-src: url(starjhol.ttf);
-}
-
 .result {
   display: none;
 }
