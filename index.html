@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="container">
+      <iframe width="1152" height="698" src="http://play.starwars.com/html5/starwars_crawlcreator/?cid=490abec6c54e912a0a83388816edac9aa3adb231" frameborder="0" scrolling="no"></iframe>
      <h1>Which Star Wars Character Are You?</h1>
      <p class="lead">Take our quiz to find out!</p>
      <hr></hr>
@@ -18,6 +19,13 @@
          <select id="side">
            <option value="light">The Light Side</option>
            <option value="dark">The Dark Side</option>
+         </select>
+       </div>
+       <div class="form-group">
+         <label for="humanNon">Do you feel human or non-human?</label>
+         <select id="humanNon">
+           <option value="human">Human</option>
+           <option value="non">Non-Human</option>
          </select>
        </div>
        <div class="form-group">
@@ -38,7 +46,7 @@
        <div class="form-group">
          <label for="force">Use The Force or use brute force?</label>
          <select id="force">
-           <option value="theforce">The Force</option>
+           <option value="theForce">The Force</option>
            <option value="brute">Brute Force</option>
          </select>
        </div>
@@ -76,9 +84,21 @@
        <img src="img/rey.jpg">
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
      </div>
+     <div id="han" class="result">
+       <h2>Your Match</h2>
+       <h3>Based on your quiz results, your ideal celebrity match is Han Solo!</h3>
+       <img src="img/han.jpeg">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+     </div>
+     <div id="chewy" class="result">
+       <h2>Your Match</h2>
+       <h3>Based on your quiz results, your ideal celebrity match is Chewy!</h3>
+       <img src="img/chewy.jpg">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+     </div>
      </p>
      <p class="bruteForce">You don't need the force to get things done.</p>
-     <p class="theForce">THe force is strong with you!</p>
+     <p class="theForce">The force is strong with you!</p>
    </div>
   </body>
 </html>

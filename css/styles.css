@@ -1,3 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: starjhol;
+}
+
+@font-face {
+  font-family: starjhol;
+src: url(starjhol.ttf);
+}
+
 .result {
   display: none;
+}
+.bruteForce {
+  display: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.theForce {
+  display: none;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.result img {
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  float: left;
+}
+
+.result p {
+  font-size: 20px;
 }
