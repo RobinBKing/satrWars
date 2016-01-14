@@ -1,14 +1,11 @@
 body {
-  background-color: black;
+  /*background-color: black;*/
   color: white;
   font-family: starjhol;
-}
+  background-image: url("../img/stars.jpg");
+  background-size: cover;
 
-@font-face {
-  font-family: starjhol;
-src: url(starjhol.ttf);
 }
-
 .result {
   display: none;
 }
