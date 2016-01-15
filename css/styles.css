@@ -1,13 +1,12 @@
 body {
-  /*background-color: black;*/
   color: white;
-  font-family: starjhol;
   background-image: url("../img/stars.jpg");
   background-size: cover;
 
 }
 .result {
   display: none;
+  padding: 25px;
 }
 .bruteForce {
   display: none;
@@ -26,8 +25,13 @@ body {
   height: auto;
   padding: 10px;
   float: left;
+  padding-bottom: 25px;
 }
 
 .result p {
   font-size: 20px;
+}
+
+.header {
+  text-align: center;
 }
